@@ -60,11 +60,11 @@ class Command(BaseCommand):
          soupi =BeautifulSoup (page.content, 'html.parser') 
          links= soupi.find_all('a', href=True)
         
-         details_annonces=[]
+         annonces=[]
 
          for link in links:
           if "annonce-professeur" in link['href']:               
-              details_annonces.append(f" {'https://dz.professeurparticulier.com'}{link['href']}")
+              annonces.append(f" {'https://dz.professeurparticulier.com'}{link['href']}")
 
 
          
