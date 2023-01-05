@@ -1,2 +1,2 @@
 # WebScrapper Using python and BeautifulSoup
- here you will find an example of web scraping ( real Estate Listings)
+ here you will find an example of web scraping 
